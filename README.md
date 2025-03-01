@@ -18,25 +18,27 @@ To get started with Gym_app, follow these steps:
 
 Clone the repository:
 
-bash
+
 git clone https://github.com/harshelke180502/Gym_app.git
 cd Gym_app
  Public code references from 1 repository
 Install dependencies:
 
-bash
+
 npm install
  Public code references from 1 repository
-Start the development server:
+
+
+# Start the development server:
 
 
 npm run dev
 
-Build for production:
+# Build for production:
 
 npm run build
 
-Usage:
+# Usage:
 
 This application can be used to generate workout plans by following these steps:
 
@@ -44,32 +46,51 @@ Navigate to the home page.
 Click on the "Accept & Begin" button in the hero section.
 Select your workout type, muscle groups, and fitness goals.
 Generate your workout plan and start your exercises.
-File Structure
+
+# File Structure
 The project structure is as follows:
 
 Code
+
 Gym_app/
+
 ├── public/
+
 ├── src/
+
 │   ├── assets/
+
 │   ├── components/
+
 │   │   ├── Button.jsx
+
 │   │   ├── ExcerciseCard.jsx
+
 │   │   ├── Generator.jsx
+
 │   │   ├── Hero.jsx
+
 │   │   ├── SectionWrapper.jsx
+
 │   │   ├── Workout.jsx
+
 │   ├── utils/
+
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
- Public code references from 1 repository
-Configuration
+
+
+# Configuration
 There are no specific configuration files required for this project. However, you may need to update the environment variables or other settings in the src/utils folder as required.
 
-Components
+# Components
 
 Button.jsx:
 This file exports a functional React component called Button. It takes in text and func as props and renders a button element. The button has an onClick event handler set to the func prop and displays the text prop inside a paragraph element.
@@ -95,7 +116,7 @@ Workout.jsx:
 This file exports a functional React component called Workout. It renders a list of ExcerciseCard components based on the given workout data.
 
 
-Contributing
+# Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
