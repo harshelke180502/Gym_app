@@ -12,9 +12,8 @@ File Structure
 Configuration
 Components
 Contributing
-Testing
-License
-Installation
+
+
 To get started with Gym_app, follow these steps:
 
 Clone the repository:
